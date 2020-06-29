@@ -1,0 +1,15 @@
+.container {
+    display: inline-block;
+    width: 800px;
+    margin: 80px calc((100% - 800px) / 2) 0;
+}
+    .container > .left {
+        display: inline-block;
+        width: 40%;
+        float: left;
+    }
+    .container > .right {
+        display: inline-block;
+        width: 60%;
+        float: left;
+    }
