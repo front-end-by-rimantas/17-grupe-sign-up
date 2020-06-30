@@ -1,0 +1,16 @@
+.btn {
+    display: inline-block;
+    padding: 10px 40px;
+    float: left;
+    background-color: #005DD8;
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px #888;
+}
+    .btn:hover {
+        background-color: #024daf;
+        cursor: pointer;
+        box-shadow: 0 2px 12px #555;
+    }
