@@ -21,3 +21,19 @@ body {
         float: left;
         background-color: #fff;
     }
+        .form span,
+        .form a {
+            display: inline-block;
+            padding: 10px;
+            float: left;
+            font-size: 17px;
+            line-height: 20px;
+        }
+        .form span {
+            margin-left: 10px;
+        }
+        .form a {
+            color: #005DD8;
+            text-decoration: none;
+            font-weight: bold;
+        }
