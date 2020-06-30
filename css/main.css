@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(81, 178, 198);
+    background-color: #51B2C6;
+}
+
 .container {
     display: inline-block;
     width: 800px;
@@ -7,9 +12,12 @@
         display: inline-block;
         width: 40%;
         float: left;
+        background-color: #027BBD;
     }
     .container > .right {
         display: inline-block;
         width: 60%;
+        padding: 80px;
         float: left;
+        background-color: #fff;
     }
