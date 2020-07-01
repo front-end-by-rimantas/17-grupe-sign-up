@@ -1,13 +1,23 @@
 body {
-    background-color: rgb(81, 178, 198);
     background-color: #51B2C6;
+}
+
+.background {
+    height: 100vh;
+    background-image: url(../img/mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px);
 }
 
 .container {
     display: inline-block;
     width: 800px;
-    margin: 80px calc((100% - 800px) / 2) 0;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
     .container > .left {
         display: inline-block;
