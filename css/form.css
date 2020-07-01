@@ -26,6 +26,10 @@
             border: none;
             border-bottom: 1px solid #ccc;
         }
+            .form > .form-row > input:focus {
+                outline: none;
+                background-color: yellow;
+            }
         .form > .form-row:last-of-type {
             margin-bottom: 0;
         }
